@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    font-size: 10px;
+    color: white;
+    font-family: Montserrat;
+}
+
+.logoContainer {
+    height: auto;
+    padding: 2rem;
+    border-bottom: #505050 solid 1px;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.searchText {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#searchBar {
+    margin: 4rem;
+    height: 4vh;
+    min-height: 25px;
+    min-width: 300px;
+    width: 30vw;
+    background: none;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.searchBar::placeholder {
+    color: #505050;
+    font-size: 1rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: auto;
+    font-size: 1rem;
+}
+
+/* ERROR VIEW STYLING */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewContainer {
+    width: 75vw;
+    min-width: 300px;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+#title {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#titleID {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #505050;
+    display: flex;
+    color: #505050;
+}
+
+#detailsTitle {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 4rem 0;
+}
+
+.detail {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+
+#errorMessageTitle {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 4rem 0;
+}
+
+#errorMessageBox {
+    width: 50vw;
+    height: fit-content;
+    padding: 2rem;
+    background-color: #161616;
+    border: #202020 1px solid;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 200;
+}
