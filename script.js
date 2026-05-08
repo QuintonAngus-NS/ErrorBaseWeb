@@ -28,7 +28,7 @@ searchBar.addEventListener('keypress', async (e) => {
             const queryResult = await querySB(searchItem)
 
             if (!queryResult === false  && queryResult[0]) {
-                window.location.href = `/view.html?id=${queryResult[0].ID}&service=${queryResult[0].service}&code=${queryResult[0].code}&error=${queryResult[0].error}&date=${queryResult[0].date}&lookup=false`                
+                window.location.href = `https://dev.db.northern-star.online/view.html?id=${queryResult[0].ID}&service=${queryResult[0].service}&code=${queryResult[0].code}&error=${queryResult[0].error}&date=${queryResult[0].date}&lookup=false`                
             }
         }
     }
